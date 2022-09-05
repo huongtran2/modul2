@@ -6,7 +6,7 @@ public class namnhuan {
         int year;
         System.out.println("nhập năm");
         year = scanner.nextInt();
-        if (year % 4 == 0 && year % 100 != 0) {
+        if ((year % 4 == 0 && year % 100 != 0) || year%400==0) {
             System.out.println("là năm nhuận");
         } else {
             System.out.println("không là năm nhuận");
