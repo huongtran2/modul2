@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-import static java.lang.Math.sqrt;
-
-public class ptb2 {
+public class namnhuan {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int year;
