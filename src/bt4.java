@@ -7,6 +7,5 @@ public class bt4 {
     int a = scanner.nextInt();
     int b=(a*23000);
     System.out.println(b);
-
     }
 }
